@@ -10,6 +10,10 @@ body {
 }
 
 header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     background: #2B468B;
     color: white;
     padding: 16px;
@@ -23,13 +27,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
+    margin-top: 25px ;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
 
 a {
     text-decoration: none;
-    color: #252525;
+    color: #fafafa;
 }
 
 main {
